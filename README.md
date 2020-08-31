@@ -49,3 +49,16 @@ In order to run our code, you can follow this guied and ask some quistions using
 <b>Graphs generator:</b>
 1. Command Example:
 	1. python3 gen_graphs.py
+	
+
+We want to thank 
+
+@article{zhang2017real,
+  title={Real-Time User-Guided Image Colorization with Learned Deep Priors},
+  author={Zhang, Richard and Zhu, Jun-Yan and Isola, Phillip and Geng, Xinyang and Lin, Angela S and Yu, Tianhe and Efros, Alexei A},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={9},
+  number={4},
+  year={2017},
+  publisher={ACM}
+}
