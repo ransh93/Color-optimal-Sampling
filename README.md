@@ -53,6 +53,6 @@ In order to run our code, you can follow this guied and ask some quistions using
 
 <b>
 Many thanks for this article and code base for giving us good start for our research, it has been a pleasure working with your code
-https://richzhang.github.io/ideepcolor/
+https://richzhang.github.io/ideepcolor/ <br>
 https://github.com/richzhang/colorization-pytorch
 </b>
