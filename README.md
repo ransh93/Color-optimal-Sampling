@@ -1,10 +1,12 @@
 # Color-optimal-Sampling
 Finding an optimal Sampling for Digital Color Camera using deep learning methods for colorization
 
+We used a DNN which primarly aimed to improve image colorization result in order to train that network to find an optimal color ratio and Sampling for Digital Color Camera
+In order to run our code, you can follow this guied and ask some quistions using our personal emails (presented at the end)
 
 Assumptions:
-	1. Under ...\root\dataset\ilsvrc2012\ there should be three sub-directories: 'train', test', 'val'.
-	2. Images should be contained in a subfolder under each of the above dirs. For example: ...\test\1\*.JPEG.
+1. Under ...\root\dataset\ilsvrc2012\ there should be three sub-directories: 'train', test', 'val'.
+2. Images should be contained in a subfolder under each of the above dirs. For example: ...\test\1\*.JPEG.
 
 
 Files:
