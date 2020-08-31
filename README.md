@@ -4,7 +4,7 @@ Finding an optimal Sampling for Digital Color Camera using deep learning methods
 We used a DNN which primarly aimed to improve image colorization result in order to train that network to find an optimal color ratio and Sampling for Digital Color Camera
 In order to run our code, you can follow this guied and ask some quistions using our personal emails (presented at the end)
 
-Assumptions:
+<b>Assumptions:</b>
 
 1. Under ...\root\dataset\ilsvrc2012\ there should be three sub-directories: 'train', test', 'val'.
 2. Images should be contained in a subfolder under each of the above dirs. For example: ...\test\1\*.JPEG.
@@ -18,14 +18,14 @@ Assumptions:
 4. gen_graphs.py - used to create two heatmap graphs: PSNR, MSE.
 
 
-Training:
-	1. Important Flags:
-		1.	name			- the name of network
-		2.	niter			- the number of epochs
-		3.	save_epoch_freq	- controls the frequency in which the network is being saved during training
-		4.	niter_decay		- number of epochs to decay learning rate
-		5.	lr				- the learning rate
-		6.	phase			- train\test
+<b>Training:</b>
+1. Important Flags:
+	1.	name			- the name of network
+	2.	niter			- the number of epochs
+	3.	save_epoch_freq	- controls the frequency in which the network is being saved during training
+	4.	niter_decay		- number of epochs to decay learning rate
+	5.	lr				- the learning rate
+	6.	phase			- train\test
 		7.	output_nc		- output dimension
 		8.	input_nc		- input dimension
 		9.	loadSize		- scale images to this size
