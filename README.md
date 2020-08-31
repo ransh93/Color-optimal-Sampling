@@ -26,23 +26,26 @@ In order to run our code, you can follow this guied and ask some quistions using
 	4.	niter_decay		- number of epochs to decay learning rate
 	5.	lr				- the learning rate
 	6.	phase			- train\test
-		7.	output_nc		- output dimension
-		8.	input_nc		- input dimension
-		9.	loadSize		- scale images to this size
-		10.	fineSize		- crop images to this size
-		11. batch_size		- the batch size
-		12.	red_ratio		- % of red values in mask (specific network only)
-		13.	green_ratio		- % of green values in mask (specific network only)
+	7.	output_nc		- output dimension
+	8.	input_nc		- input dimension
+	9.	loadSize		- scale images to this size
+	10.	fineSize		- crop images to this size
+	11. batch_size		- the batch size
+	12.	red_ratio		- % of red values in mask (specific network only)
+	13.	green_ratio		- % of green values in mask (specific network only)
 	
-	2. Command Examples:
-		1. python3 train.py --name rgb_full_128 --niter 20 --save_epoch_freq 10 --niter_decay 0 --lr 0.00001 --phase train --output_nc 3 --input_nc 4 --loadSize 128 --fineSize 128
-		2. python3 train_specific.py --name rgb_specific_70_20 --red_ratio 70 --green_ratio 20 --niter 20 --save_epoch_freq 10 --niter_decay 0 --lr 0.00001 --phase train --output_nc 3 --input_nc 4 --loadSize 128 --fineSize 128
+2. Command Examples:
+	1. python3 train.py --name rgb_full_128 --niter 20 --save_epoch_freq 10 --niter_decay 0 --lr 0.00001 --phase train --output_nc 3 --input_nc 4 --loadSize 128 --fineSize 128
+	2. python3 train_specific.py --name rgb_specific_70_20 --red_ratio 70 --green_ratio 20 --niter 20 --save_epoch_freq 10 --niter_decay 0 --lr 0.00001 --phase train --output_nc 3 --input_nc 4 --loadSize 128 --fineSize 128
 	
 	
 Testing:
-	1. Important Flags:
-		1. how_many		- how many iterations to test on
-		2. load_mask	- load specific mask of this network (specific network only)
-	2. Command Example:
-		1. python3 test.py --name rgb_specific_10_60 --loadSize 128 --fineSize 128 --input_nc 4 --output_nc 3 --how_many 100 --load_mask True
+1. Important Flags:
+	1. how_many		- how many iterations to test on
+	2. load_mask	- load specific mask of this network (specific network only)
+2. Command Example:
+	1. python3 test.py --name rgb_specific_10_60 --loadSize 128 --fineSize 128 --input_nc 4 --output_nc 3 --how_many 100 --load_mask True
 
+Graphs generator:
+1. Command Example:
+	1. python3 gen_graphs.py
