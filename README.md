@@ -10,7 +10,7 @@ Assumptions:
 2. Images should be contained in a subfolder under each of the above dirs. For example: ...\test\1\*.JPEG.
 
 
-<b>Files:<b>
+<b>Files:</b>
 
 1. train.py - used to train the 'generic' network.
 2. train_specific.py - used to train the 'specific' network.
