@@ -39,13 +39,13 @@ In order to run our code, you can follow this guied and ask some quistions using
 	2. python3 train_specific.py --name rgb_specific_70_20 --red_ratio 70 --green_ratio 20 --niter 20 --save_epoch_freq 10 --niter_decay 0 --lr 0.00001 --phase train --output_nc 3 --input_nc 4 --loadSize 128 --fineSize 128
 	
 	
-Testing:
+<b>Testing:</b>
 1. Important Flags:
-	1. how_many		- how many iterations to test on
+	1. how_many	- how many iterations to test on
 	2. load_mask	- load specific mask of this network (specific network only)
 2. Command Example:
 	1. python3 test.py --name rgb_specific_10_60 --loadSize 128 --fineSize 128 --input_nc 4 --output_nc 3 --how_many 100 --load_mask True
 
-Graphs generator:
+<b>Graphs generator:</b>
 1. Command Example:
 	1. python3 gen_graphs.py
