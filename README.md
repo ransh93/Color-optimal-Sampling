@@ -1,8 +1,9 @@
 # Color-optimal-Sampling
 Finding an optimal Sampling for Digital Color Camera using deep learning methods for colorization
 
-We used a DNN which primarly aimed to improve image colorization result in order to train that network to find an optimal color ratio and Sampling for Digital Color Camera
-In order to run our code, you can follow this guied and ask some quistions using our personal emails (presented at the end)
+We used a DNN which primarily aimed to improve image colorization results in order to train our modified network to find an optimal color ratio and Sampling for Digital Color Camera
+
+In order to run our code, you can follow this guied and ask some quistions using our github users
 
 <b>Assumptions:</b>
 
