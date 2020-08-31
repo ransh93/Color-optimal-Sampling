@@ -5,15 +5,17 @@ We used a DNN which primarly aimed to improve image colorization result in order
 In order to run our code, you can follow this guied and ask some quistions using our personal emails (presented at the end)
 
 Assumptions:
+
 1. Under ...\root\dataset\ilsvrc2012\ there should be three sub-directories: 'train', test', 'val'.
 2. Images should be contained in a subfolder under each of the above dirs. For example: ...\test\1\*.JPEG.
 
 
-Files:
-	1. train.py - used to train the 'generic' network.
-	2. train_specific.py - used to train the 'specific' network.
-	3. test.py - used to run a test that reports PSNR & MSE statistics and sample images.
-	4. gen_graphs.py - used to create two heatmap graphs: PSNR, MSE.
+<b>Files:<b>
+
+1. train.py - used to train the 'generic' network.
+2. train_specific.py - used to train the 'specific' network.
+3. test.py - used to run a test that reports PSNR & MSE statistics and sample images.
+4. gen_graphs.py - used to create two heatmap graphs: PSNR, MSE.
 
 
 Training:
